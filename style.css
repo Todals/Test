@@ -466,10 +466,6 @@ button {
   border-radius: 5px;
 }
 
-.name {
-
-color: #FFFFFFF;
-}
 
 /*media queries heading 1 Mobilversion (Upp till Padda portrait)*/
 @media (min-width: 500px) {
