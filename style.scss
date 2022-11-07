@@ -1,0 +1,507 @@
+/*SASS variable styling*/
+$font-stack: Inter, sans-serif;
+$primary-color: #121212;
+$accent-color: #FFD600;
+
+
+/*styling of h1*/
+h1 {
+  color: white;
+  text-align: center;
+  font-family: $font-stack;
+  font-size: 100px;
+  letter-spacing: 25px;
+}
+
+/*styling of h2*/
+h2 {
+  color: white;
+  text-align: center;
+  font-weight:300;
+  font-family: $font-stack;
+  font-size: 36px;
+}
+
+/*styling of h3*/
+h3 {
+  color: $accent-color;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: 15px;
+}
+
+/*styling of h4*/
+h4 {
+  color: $accent-color;
+  font-family: $font-stack;
+  text-align: center;
+  font-size: 24px;
+}
+
+
+
+/*styling of h5*/
+h5 {
+  color: white;
+  font-family: $font-stack;
+  font-style: lighter;
+  font-size: 18px;
+}
+
+/*styling of h6*/
+h6 {
+  color: white;
+  font-family: $font-stack;
+  font-style: normal;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/*styling of p*/
+p {
+  color: white;
+  font-family: $font-stack;
+  text-align: center;
+  font-size: 16px;
+}
+
+/*styling of h4 to the left*/
+.sh1l {
+  color: $accent-color;
+  font-family: $font-stack;
+  text-align: left;
+  font-size: 24px;
+}
+
+/*styling of lines*/
+hr {
+  size: 3px;
+  color: white;
+  width: auto;
+  align:center;
+}
+
+
+/*styling of body*/
+body {
+  background-color: $primary-color;
+}
+
+
+/*styling of image*/
+img {
+  width: 80%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+/*styling of images on portfolio page for case studies*/
+.imgc {
+  padding-top: 20px;
+}
+
+/*styling of images on portfolio page for case studies*/
+.imgc2 {
+  width: 70%;
+  display: block;
+  align: left;
+}
+
+/*styling of images on portfolio page for case studies*/
+.imgc3 {
+  width: 90%;
+  display: block;
+  margin-left:10px;
+}
+
+
+/*styling of lists*/
+
+ul {
+  color: #FFFFFF;
+  list-style-type: square;
+  list-style-position: inside;
+}
+
+ol {
+  color: #FFFFFF;
+  list-style-position: inside;
+
+}
+
+/*styling of aside element*/
+.aside1 {
+  float: left;
+  size: 40%;
+}
+
+/*styling of footer*/
+.footer {
+  width: 100%;
+  height: 100px;
+  background-color: $primary-color;
+  bottom: 10px;
+}
+
+
+
+/*styling of footerlinks*/
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+/*Styling of heading on aboutme.hmtl */
+.aboutmeheading {
+  color: $accent-color;
+  display: block;
+  align: right;
+  margin-right:-300px;
+  margin-top: -600px;
+}
+
+
+/* Adds a black background color to the top navigation */
+.topnav {
+  background-color: $primary-color;
+  overflow: hidden;
+  width: 100%;
+}
+
+/* Styling for the links inside the navigation bar */
+.topnav a {
+  float: right;
+  font-size: 20px;
+  font-style: normal;
+  font-family: $font-stack;
+  color: #FFFF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+
+/* Changes the color of links on hover in topnav */
+.topnav a:hover {
+  background-color: $primary-color;
+  color: $accent-color;
+}
+
+/* Adds a color to the active/current link in topnav */
+.topnav a.active {
+  background-color: $primary-color;
+  color: $accent-color;
+}
+
+
+/* logo in topnav */
+.logo-image {
+  align: left;
+  width: 20%;
+  margin-top: -55px;
+  margin-left: 20px;
+}
+
+
+/* case study pictures on portfolio page */
+.portfoliobild1 {
+  display: block;
+  align:center;
+  width:100%;
+}
+
+.portfoliobild2 {
+  display: block;
+  align:center;
+  width:100%;
+}
+
+.portfoliobild3 {
+  display: block;
+  align:center;
+  width:100%;
+}
+
+.portfoliobild4 {
+  display: block;
+  align:center;
+  width:100%;
+}
+
+/* section styling overall */
+section {
+  align: center;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+/* section styling for text and picture on landing */
+.section1 {
+  margin-top: 200px;
+  text-align: center;
+  align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1160px;
+  height: 593px;
+  background-image: url("cirkl.png");
+  background-color: $primary-color;
+}
+
+/* section styling for portfolio case studie segments */
+.section2 {
+  margin-top: 100px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+/*styling for bootstrap grid on case study pages*/
+.row {
+  justify-content: center;
+  width: 1200px;
+  margin-left: 80px;
+}
+
+/*logo on landing*/
+.logotype {
+  font-size: 100px;
+  padding-top: 180px;
+  margin-top: 100px;
+  text-shadow: 2px 1px 7px #000000
+}
+
+/* section styling for heading and subheadings on landing */
+.firstpage{
+  margin-top: 10px;
+  font-size: 20px;
+  text-shadow: 4px 6px 7px #000000;
+}
+
+
+/* ellipse picture on first page */
+.minbild {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+  width: 50%;
+
+}
+
+/* text over ellipse picture on first page */
+.texten {
+  display: block;
+  align: center;
+  margin-top:-380px;
+}
+
+/* second text over ellipse picture on first page */
+.text {
+  font-weight: 300;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+}
+
+/* styling of the right heading text on casestudypages */
+.sprintr {
+  text-align: right;
+  font-size: 18px;
+  color: $accent-color;
+}
+
+/* styling of the left heading text on casestudypages*/
+.sprintl {
+  font-size: 18px;
+  color: $accent-color;
+  text-align: left;
+}
+
+/* bootstrap grid section*/
+.bootstraps {
+  justify-content: center;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  align: block;
+  margin-top: 20px;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+
+/*styling of the first sprint section on casestudypages*/
+.sprint1s {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+  height: auto;
+}
+
+/* styling of the sprint 2 section on casestudypages*/
+.sprint2s {
+  text-align: right;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width:1000px;
+  height: auto;
+}
+
+/*styling of the third sprint section on casestudypages*/
+.sprint3s {
+  margin-top: 250px;
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1000px;
+  height: auto;
+}
+
+/* styling of the images on casestudypages sprint 3*/
+.sprint3p {
+  width: 30%;
+  height: auto;
+  margin-left:150px;
+}
+
+
+.lessons {
+  width: 1000px;
+  height: auto;
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 150px;
+  text-align: center;
+}
+
+/* styling of the images on casestudypages sprint 5*/
+.design {
+  width: 30%;
+}
+
+/* styling of the left p text on casestudypages */
+.ptextl {
+  text-align: left;
+  font-size: 16px;
+  color: white;
+  margin-top: 30px;
+}
+
+/* styling of the right p text on casestudypages */
+.ptextr {
+  text-align: right;
+  font-size: 16px;
+  color: white;
+  margin-top: 30px;
+}
+
+/*styling of the text programs used */
+.programs {
+  margin-top: 100px;
+  font-size: 26px;
+  text-align: center;
+  color: white;
+  font-weight: normal;
+  font-family: Inter, sans-serif;
+}
+
+
+/*styling of line on landing*/
+.linjen {
+  color: white;
+  padding: 1px;
+
+}
+
+/*styling of casestudy headings*/
+.caseheading {
+  text-decoration: none;
+  font-size: 30px;
+  font-family: $font-stack;
+  color:white;
+  text-shadow: 2px 1px 7px #000000;
+}
+
+.caseheading:link {
+  text-decoration: none;
+  font-size: 30px;
+  font-family: $font-stack;
+  color:white;
+  text-shadow: 2px 1px 7px #000000;
+}
+
+.caseheading:hover   {
+  text-decoration: none;
+  color:yellow;
+  text-shadow: 2px 1px 7px #000000;
+}
+
+
+/*styling of navbar link*/
+.menylank:link    {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: $font-stack;
+  color:white;
+  text-shadow: 2px 1px 7px #000000;
+}
+
+
+/*styling of visited navbar link*/
+.menylank:visited {
+  text-decoration:none;
+  color:white;
+  text-shadow: 2px 1px 7px #000000;
+}
+
+/*styling of navbar link when hovering*/
+.menylank:hover   {
+  text-decoration: none;
+  color:yellow;
+  text-shadow: 2px 1px 7px #000000;
+}
+
+/*styling of navbar link when active*/
+.menylank:active  {
+  text-decoration: none;
+  color:yellow;
+  text-shadow: 2px 1px 7px #000000;
+}
+
+/*button styling*/
+button {
+  background-color: $accent-color;
+  border: none;
+  color: $primary-color;
+  padding: 5px 7px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 0 auto;
+  display: block;
+  border-radius: 5px;
+}
+
+/*media queries heading 1*/
+@media (min-width: 500px and max-width: 992px) {
+  .logotype {
+   font-size: 80px;
+   }
+}

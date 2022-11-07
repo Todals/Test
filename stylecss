@@ -1,0 +1,355 @@
+/*SASS variable styling*/
+/*styling of h1*/
+h1 {
+  color: white;
+  text-align: center;
+  font-family: Inter, sans-serif;
+  font-size: 100px;
+  letter-spacing: 25px;
+}
+
+/*styling of h2*/
+h2 {
+  color: white;
+  text-align: center;
+  font-weight: 300;
+  font-family: Inter, sans-serif;
+  font-size: 36px;
+  letter-spacing: 25px;
+}
+
+/*styling of sh1*/
+sh1 {
+  color: #FFD600;
+  font-family: Inter, sans-serif;
+  text-align: center;
+  font-size: 24px;
+}
+
+/*styling of sh2*/
+sh2 {
+  color: white;
+  font-family: Inter, sans-serif;
+  font-style: lighter;
+  font-size: 18px;
+}
+
+/*styling of p*/
+p {
+  color: white;
+  font-family: Inter, sans-serif;
+  text-align: center;
+  font-size: 16px;
+}
+
+/*styling of body*/
+body {
+  background-color: #121212;
+}
+
+/*styling of image*/
+img {
+  width: 80%;
+  height: auto;
+}
+
+/*styling of images on portfolio page for case studies*/
+.imgc {
+  padding-top: 20px;
+}
+
+/*aside styling for left*/
+asidel {
+  width: 60%;
+  float: left;
+  display: inline;
+  margin-right: 0px;
+  margin-left: -170px;
+}
+
+/*aside styling for right*/
+asider {
+  width: 50%;
+  float: right;
+  display: inline;
+}
+
+/*styling of footer*/
+.footer {
+  width: 100%;
+  height: 100px;
+  background-color: #121212;
+  bottom: 0;
+}
+
+/*styling of footerlinks*/
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+/*Styling of heading on aboutme.hmtl */
+.aboutmeheading {
+  color: #FFD600;
+  display: block;
+  align: right;
+  margin-right: -300px;
+  margin-top: -600px;
+}
+
+/* Adds a black background color to the top navigation */
+.topnav {
+  display: block;
+  background-color: #121212;
+  overflow: hidden;
+  width: 100%;
+}
+
+/* Styling for the links inside the navigation bar */
+.topnav a {
+  float: right;
+  font-style: normal;
+  font-family: Inter, sans-serif;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Changes the color of links on hover in topnav */
+.topnav a:hover {
+  background-color: #121212;
+  color: #FFD600;
+}
+
+/* Adds a color to the active/current link in topnav */
+.topnav a.active {
+  background-color: #121212;
+  color: #FFD600;
+}
+
+/* logo in topnav */
+.logo-image {
+  align: left;
+  width: 20%;
+  margin-top: -55px;
+  margin-left: 20px;
+}
+
+/* case study pictures on portfolio page */
+.portfoliobild1 {
+  display: block;
+  align: center;
+  width: 60%;
+  margin-left: 320px;
+}
+
+.portfoliobild2 {
+  display: block;
+  align: center;
+  width: 55%;
+  margin-left: 450px;
+}
+
+.portfoliobild3 {
+  display: block;
+  align: center;
+  width: 100%;
+}
+
+.portfoliobild4 {
+  display: block;
+  align: center;
+  width: 60%;
+  margin-left: 350px;
+}
+
+/* section styling overall */
+section {
+  display: block;
+}
+
+/* section styling for text and picture on landing */
+section1 {
+  margin-top: 200px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1160px;
+  height: 593px;
+  background-image: url("cirkl.png");
+  background-color: #121212;
+}
+
+/* section styling for portfolio case studie segments */
+section2 {
+  margin-top: 100px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section3 {
+  justify-content: center;
+  margin-top: auto;
+  margin-left: 0px;
+  align: block;
+}
+
+section4 {
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1160px;
+  height: 593px;
+}
+
+/*styling for bootstrap grid on case study pages*/
+.row {
+  justify-content: center;
+  width: 1200px;
+  margin-left: 80px;
+}
+
+/*logo on landing*/
+.logotype {
+  font-size: 100px;
+  padding-top: 180px;
+  margin-top: 100px;
+  text-shadow: 2px 1px 7px #000000;
+}
+
+/* section styling for heading and subheadings on landing */
+.firstpage {
+  margin-top: 10px;
+  font-size: 20px;
+  text-shadow: 4px 6px 7px #000000;
+}
+
+/* ellipse picture on first page */
+.minbild {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+  width: 50%;
+}
+
+/* text over ellipse picture on first page */
+.texten {
+  display: block;
+  align: center;
+  margin-top: -380px;
+}
+
+/* second text over ellipse picture on first page */
+.text {
+  font-weight: 300;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+}
+
+/* styling of the right heading text on casestudypages */
+.sprintr {
+  text-align: right;
+  font-size: 18px;
+  color: #FFD600;
+}
+
+/* styling of the left heading text on casestudypages*/
+.sprintl {
+  font-size: 18px;
+  color: #FFD600;
+  text-align: left;
+}
+
+/* styling of the images on casestudypages sprint 3*/
+.sprint3p {
+  width: 50%;
+}
+
+/* styling of the left p text on casestudypages */
+.ptextl {
+  text-align: left;
+  font-size: 16px;
+  color: white;
+}
+
+/* styling of the right p text on casestudypages */
+.ptextr {
+  text-align: right;
+  font-size: 16px;
+  color: white;
+}
+
+/*styling of line on landing*/
+.linjen {
+  color: white;
+  padding: 1px;
+}
+
+.caseheading {
+  text-decoration: none;
+  font-size: 30px;
+  font-family: Inter, sans-serif;
+  color: white;
+  text-shadow: 2px 1px 7px #000000;
+}
+
+.caseheading:link {
+  text-decoration: none;
+  font-size: 30px;
+  font-family: Inter, sans-serif;
+  color: white;
+  text-shadow: 2px 1px 7px #000000;
+}
+
+.caseheading:hover {
+  text-decoration: none;
+  color: yellow;
+  text-shadow: 2px 1px 7px #000000;
+}
+
+/*styling of navbar link*/
+.menylank:link {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Inter, sans-serif;
+  color: white;
+  text-shadow: 2px 1px 7px #000000;
+}
+
+/*styling of visited navbar link*/
+.menylank:visited {
+  text-decoration: none;
+  color: white;
+  text-shadow: 2px 1px 7px #000000;
+}
+
+/*styling of navbar link when hovering*/
+.menylank:hover {
+  text-decoration: none;
+  color: yellow;
+  text-shadow: 2px 1px 7px #000000;
+}
+
+/*styling of navbar link when active*/
+.menylank:active {
+  text-decoration: none;
+  color: yellow;
+  text-shadow: 2px 1px 7px #000000;
+}
+
+/*media queries heading 1 Mobilversion (Upp till Padda portrait)*/
+@media (min-width: 500px) {
+  .logotype {
+    font-size: 80px;
+  }
+}
+
+/*# sourceMappingURL=stylecss.map */
